@@ -1,0 +1,244 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %} GMSSschool {% endblock title %} 
+
+{% block body %}
+  <!-- Header Start -->
+  <header class="school-header">
+    <!-- Left Logo -->
+    <div class="logo-left">
+      <img src="{% static 'images/logo (2).png' %}" alt="Left Logo" class="header-logo">
+    </div>
+    <div class="school-title">
+      <h1>Government Model Senior Secondary School</h1>
+      <h2>Applied in learning school / school of excellence</h2>
+      <h2>Sector 28, Faridabad</h2>
+      <h1>राजकीय आदर्श वरिष्ठ माध्यमिक विद्यालय, फरीदाबाद</h1>
+    </div>
+
+    <!-- Right Logo -->
+    <div class="logo-right">
+      <img src="{% static 'images/logo.png' %}" alt="Right Logo" class="header-logo">
+    </div>
+  </header>
+
+  
+  <!-- Carousel Slider Start -->
+  <div id="collegeSlider" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <!-- Slide 1 -->
+        <div class="carousel-item active" data-bs-interval="3000">
+            <img src="{% static 'images/ChatGPT Image Aug 5, 2026, 12_45_30 PM.png' %}" class="d-block w-100 slider-img" alt="Slide 1">
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="{% static 'images/ChatGPT Image Aug 5, 2026, 12_38_10 PM.png' %}" class="d-block w-100 slider-img" alt="Slide 2">
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="{% static 'images/ChatGPT Image Aug 5, 2026, 12_39_52 PM.png' %}" class="d-block w-100 slider-img" alt="Slide 3">
+        </div>
+
+        <!-- Slide 4 -->
+        <div class="carousel-item" data-bs-interval="3000">
+            <img src="{% static 'images/Gemini_Generated_Image_7i4t6w7i4t6w7i4t.png' %}" class="d-block w-100 slider-img" alt="Slide 4">
+        </div>
+    </div>
+
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#collegeSlider" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#collegeSlider" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-tag">
+      Announcement
+    </div>
+    <div class="ticker-container">
+      <div class="ticker-text">
+        <a href="#">.Admission open session 2026-2027</a>
+        <a href="#">•  Result Declared for Session 2025-26</a>
+         <a href="#">•  Fresher party organised</a>
+      </div>
+    </div>
+  </div>
+ <section class="patron-section">
+
+  <!-- Top Content (Photo + Description) -->
+  <div class="patron-container">
+    
+    <!-- Left Profile Box -->
+    <div class="patron-card">
+      <img src="{% static 'images/images.jpg' %}" alt="Patron Photo" class="patron-img">
+      <div class="patron-name-box">
+       D.r spiderman
+      </div>
+      <p class="patron-quote-small">
+        "May he be our beacon of light and keep guiding us to tread the path laid by him!"
+      </p>
+    </div>
+
+    <!-- Right Details Box -->
+    <div class="patron-details">
+      <span class="category-title">OUR PATRON</span>
+      <h2 class="main-heading">Visionary Principal</h2>
+      
+      <p class="main-quote">“The Best Way To Find Yourself Is To Lose Yourself In The Service Of Others and Marvel studio”.</p>
+      
+      <p class="sub-quote">“Lives of great spiderman , all remind us, we can make our lives sublime./And departing, leave behind us, footprints on the sands of time”- H.W Longfellow</p>
+      
+      <p class="description-text">
+        <div class="container patron-section">
+  <!-- Top Row: Patron Profile & Description -->
+  <div class="row align-items-center mb-5">
+    
+    <!-- Left Column: Image Box -->
+    
+      <p class="description-text">
+        The action of a great man provides inspiration to others. Whatever he does, becomes a standard for others to follow. Government Model Senior Secondary School owes the genius of our beloved Founder Chairman, a transformer of vision into reality. His love for education made him dream to provide world-class education at affordable cost. His dream culminated into reality with the inception of the school, which now stands tall and is converted into a chain of excellence. The school family is grateful for giving way to the unending success.
+      </p>
+    </div>
+
+  </div>
+
+  <!-- Bottom Row: 6 Rounded Feature Cards -->
+  <div class="row g-3 mt-4">
+    
+    <!-- Card 1 -->
+    <div class="col-lg-2 col-md-4 col-6">
+      <a href="{% url 'about'%}" class="card-click-link">
+      <div class="feature-card">
+        <img src="{% static 'images/Gemini_Generated_Image_thmfi5thmfi5thmf.png' %}" alt="HBSE" class="feature-icon">
+        <h5 class="feature-title">HBSE Initiatives</h5>
+      </div>
+      </a>
+    </div>
+  
+  
+
+    <!-- Card 2 -->
+    
+    <!-- Card 3 -->
+    <div class="col-lg-2 col-md-4 col-6">
+      <a href="{% url 'about'%}" class="card-click-link">
+      <div class="feature-card">
+        <img src="{% static 'images/award.png' %}" alt="Awards" class="feature-icon">
+        <h5 class="feature-title">Our Awards & Achievements</h5>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="col-lg-2 col-md-4 col-6">
+      <a href="{% url 'about'%}" class="card-click-link">
+      <div class="feature-card">
+        <img src="{% static 'images/anger.png' %}" alt="Anger Free Zone" class="feature-icon">
+        <h5 class="feature-title">Anger Free Zone</h5>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="col-lg-2 col-md-4 col-6">
+      <a href="{% url 'about'%}" class="card-click-link">
+      <div class="feature-card">
+        <img src="{% static 'images/bio.png' %}" alt="Biodiversity" class="feature-icon">
+        <h5 class="feature-title">Sustaining Biodiversity</h5>
+      </div>
+      </a>
+    </div>
+
+    <!-- Card 6 -->
+     <div class="col-lg-2 col-md-4 col-6">
+      <a href="{% url 'about'%}" class="card-click-link">
+      <div class="feature-card">
+        <img src="{% static 'images/social.png' %}" alt="social" class="feature-icon">
+        <h5 class="feature-title">social Initiatives</h5>
+      </div>
+      </a>
+    </div>
+    <div class="about-section-wrapper">
+  
+  <!-- Left Side Content Area (About Us / Text) -->
+  <div class="content-left">
+    <div class="about-title">
+      <span class="icon">📢</span> ABOUT US
+    </div>
+    <h2>Our Education System Inspires You More.</h2>
+    <p>
+      Government model senior secondary school sector-28 Faridabad Haryana 
+    </p>
+    <p> 
+      this school is a center of excellence school and only one school is establihed is aa of tha haryana Government school
+    </p>
+    <P>
+      sec 28 is a special school because this is learn NSQF( National Skill Qualification Framework ) and gain practical knowledge  to student  and real 
+      industry  workshop and training  This school provide level1-level 4 certificate in all trade 
+    </P>
+    <P> 
+    Our teacher is support student  and our school aim to make our student to achieve a dreaam 
+    </P>
+  </div>
+
+  <!-- Right Side Notice Board (Exact Match with Image) -->
+  <div class="notice-board-container">
+    <div class="board-header">
+      <h2>Notice Board</h2>
+    </div>
+    
+    <div class="scrolling-ticker">
+      <ul class="notice-list">
+        <li>
+          <a href="#">
+            <span class="badge-new-gif">NEW</span>
+            <span class="Box">15 Aug</span>
+            Notice for Semester-I Admission Session-2025-29
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="badge-new-gif">NEW</span>
+            <span class="Box">14 Aug</span>
+            Kal Independence Day ki chutti rahegi.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="Box"> 3 july</span>
+            New Admission registration open.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="Box">2 march</span>
+            Semester exam date announced.
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <span class="Box">1 march</span>
+            Semester exam date .
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="board-footer">
+    <a href="{% url 'notice' %}" class="view-all-btn">
+      <center> <bold> View all notice</bold></center>
+    </a>
+  </div>
+  </div>
+
+</div>
+<h1 class="gallery-title">Gallery</h1>
+
+
+
+{% endblock body %}
